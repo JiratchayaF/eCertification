@@ -21,5 +21,16 @@ body .container-fluid{
     color:gray;
 }
 .cer-info{
-    margin: 25px;
+    margin: 30px;
+    margin-top: 40px;
+}
+.sess-course{
+    margin: 30px;
+}
+h3{
+    margin-left: 10px;
+}
+.topic{
+    font-weight: 500; 
+    margin: 10px 10px 15px 10px;
 }

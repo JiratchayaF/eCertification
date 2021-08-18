@@ -13,16 +13,19 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
-                  <img src="image/RAI.png" class="img-fluid" alt="logo" width="100" height="60" class="d-inline-block align-text-top">
+                  <img src="image/RAI.png" class="img-fluid" alt="logo" width="90" height="60" class="d-inline-block align-text-top">
               </a>
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav">
                     <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                      <a class="nav-link" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">About</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My Course</a>
+                      </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Contact</a>
                     </li>
@@ -32,20 +35,22 @@
           </nav>
     </header>
     <div class="cer-info">
-        <h3>Certification info</h3>
+        <h3>Certification Info</h3>
+    </div> <!-- cer-info -->
+    <div class="sess-course">
         <div class="row g-3">
             <div class="col">
-                <div>Session:</div>
+                <div class="topic">Session:</div>
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Select your session</option>
-                    <option value="1">2019-2020</option>
-                    <option value="2">2020-2021</option>
-                    <option value="3">2021-2022</option>
-                    <option value="4">2022-2023</option>
+                    <option value="1">Year 2019-2020</option>
+                    <option value="2">Year 2020-2021</option>
+                    <option value="3">Year 2021-2022</option>
+                    <option value="4">Year 2022-2023</option>
                 </select>
             </div>
             <div class="col">
-                <div>Course</div>  
+                <div class="topic">Course</div>  
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Select Course</option>
                     <option value="1">Industrial Robot Arm</option>
@@ -55,5 +60,5 @@
                 </select>
             </div>
         </div> <!-- row g-3 -->
-    </div> <!-- cer-info -->
+    </div> <!-- sess-course -->
 </body>
