@@ -1,5 +1,25 @@
 body{
     box-sizing: border-box;
-    padding: 10px;
-    margin:10px;
+}
+header{
+    box-shadow:10px 5px 10px rgba(0, 0, 0, 0.2); 
+    width: 100%; 
+    background-color:rgba(255, 255, 255, 0.9);
+}
+.img-fluid{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+body .container-fluid{
+    padding-right: 0rem;
+    padding-left: 0rem;
+}
+.nav-link{
+    color:black;
+}
+.nav-link:hover{
+    color:gray;
+}
+.cer-info{
+    margin: 25px;
 }

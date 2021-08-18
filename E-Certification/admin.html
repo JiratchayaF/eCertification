@@ -8,10 +8,29 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
 </head>
-<body class="container-fluid">
+<body>
     <header>
-        <img src="image/RAI.png" class="img-fluid" alt="logo">
-    </header><hr>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="image/RAI.png" class="img-fluid" alt="logo" width="100" height="60" class="d-inline-block align-text-top">
+              </a>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
     <div class="cer-info">
         <h3>Certification info</h3>
         <div class="row g-3">
@@ -35,6 +54,6 @@
                     <option value="4">3D Drawing</option>
                 </select>
             </div>
-          </div>
+        </div> <!-- row g-3 -->
     </div> <!-- cer-info -->
 </body>
