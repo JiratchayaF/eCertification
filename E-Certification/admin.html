@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light headcolor">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
                   <img src="image/RAI.png" class="img-fluid" alt="logo" width="90" height="60" class="d-inline-block align-text-top">
@@ -18,15 +18,15 @@
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="nav">
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#">Home<span class="cut"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">My Course</a>
+                        <a class="nav-link" href="#">My Course<span class="cut"></span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Certification</a>
+                        <a class="nav-link" href="#">Certification<span class="cut"></span></a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item" style="border-right:none;">
                       <a class="nav-link" href="#">Contact</a>
                     </li>
                   </ul>
@@ -40,7 +40,7 @@
     <div class="sess-course">
         <div class="row g-3">
             <div class="col">
-                <div class="topic">Session:</div>
+                <div class="topic">Session</div>
                 <select class="form-select" aria-label="Default select example">
                     <option selected>Select your session</option>
                     <option value="1">Year 2019-2020</option>
@@ -61,4 +61,11 @@
             </div>
         </div> <!-- row g-3 -->
     </div> <!-- sess-course -->
+    <div class="information">
+        <h3>Information</h3>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
 </body>

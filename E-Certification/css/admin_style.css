@@ -1,15 +1,25 @@
 body{
     box-sizing: border-box;
+    font-family: Helvetica,Helvetica,Arial,sans-serif !important;
 }
-header{
-    box-shadow:0px 5px 10px rgba(0, 0, 0, 0.2); 
+.headcolor{
+    box-shadow:10px 5px 10px rgba(0, 0, 0, 0.2); 
     width: 100%; 
-    background-color:rgba(s, 0.5);
+    background-color:rgb(68,68,59);
+}
+.nav-link{
+    color: whitesmoke !important;
+}
+.nav-link:hover{
+    color: #ec7a1c !important;
 }
 .img-fluid{
     margin-right: 25px;
     margin-left: 25px;
-    filter: drop-shadow(2px 5px 5px #bebebe);
+}
+.navbar{
+    padding-top: 5px !important; 
+    padding-bottom: 5px !important;
 }
 body .container-fluid{
     padding-right: 0rem;
@@ -21,17 +31,28 @@ body .container-fluid{
 .nav-link:hover{
     color:gray;
 }
-.cer-info{
-    margin: 30px;
-    margin-top: 40px;
+.cer-info  {
+    margin: 50px;
+    margin-top: 100px;
 }
 .sess-course{
-    margin: 30px;
-}
-h3{
-    margin-left: 10px;
+    padding: 0px 50px 0px 50px;
+    padding-bottom: 30px;
+    background-color: #F0F3F4;
 }
 .topic{
     font-weight: 500; 
     margin: 10px 10px 15px 10px;
+}
+.information{
+    position: relative;
+    margin: 50px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+}
+.cut{
+    display: inline-block !important;
+    border-left:1px solid whitesmoke;
+    height: 16px;
+    margin-left: 30px;
 }
